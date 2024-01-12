@@ -1,1 +1,34 @@
+import java.util.Scanner;
+
+public class FirstandLastDigit {
+	
+	public static int  fun(int num)
+	{
+		int lastD=num%10;
+		int firstD=num;
+		while (firstD >= 10)
+		{
+			firstD=firstD/10;
+			
+		}
+		return firstD + lastD;
+	}
+	
+	
+	
+	
+
+	public static void main(String[] args) {
+		int n;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter any postive number");
+		n=sc.nextInt();
+		int sum= fun(n);
+		System.out.println("the sum of first and last digit= " + sum);
+		
+		
+
+	}
+
+}
 
