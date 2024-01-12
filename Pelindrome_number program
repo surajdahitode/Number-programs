@@ -1,0 +1,55 @@
+import java.util.Scanner;
+public classimport java.util.Scanner;
+public class Pelindrome_number {
+
+	public static void main(String[] args) {
+		int n;
+		int p=0;
+		int c;
+		int rem;
+		System.out.println("Ente any Number");
+		Scanner sc=new Scanner (System.in);
+		 n=sc.nextInt();
+		 c=n;
+		 while (n>0)
+		 {
+			 rem=n%10;
+			 p=(p*10)+rem;
+			 n=n/10;
+		 }
+		 if (c==p)
+		 {
+			 System.out.println("pelindrome number");
+		 }
+		 else 
+		 {
+			 System.out.println("not a pelindrome number");
+			 
+		 }
+		 {
+
+	public static void main(String[] args) {
+		int n;
+		int p=0;
+		int c;
+		int rem;
+		System.out.println("Ente any Number");
+		Scanner sc=new Scanner (System.in);
+		 n=sc.nextInt();
+		 c=n;
+		 while (n>0)
+		 {
+			 rem=n%10;
+			 p=(p*10)+rem;
+			 n=n/10;
+		 }
+		 if (c==p)
+		 {
+			 System.out.println("pelindrome number");
+		 }
+		 else 
+		 {
+			 System.out.println("not a pelindrome number");
+			 
+		 }
+		
